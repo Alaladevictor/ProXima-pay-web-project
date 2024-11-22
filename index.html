@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProXimaPay - Modern Digital Banking</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">ProXimaPay</div>
+            <button class="menu-button">☰</button>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+                <button class="cta">Online Banking</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Welcome to Modern Banking</h1>
+            <p>Experience the future of digital banking with secure, fast, and convenient services.</p>
+            <br>
+            <button class="cta">Get Started</button>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">Our Features</h2>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Secure Banking</h3>
+                <p>State-of-the-art security measures to protect your finances 24/7.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Mobile Banking</h3>
+                <p>Bank anywhere, anytime with our intuitive mobile app.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock customer service for your convenience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2 class="section-title">Our Products</h2>
+        <div class="products-grid">
+            <div class="product-card" data-aos="fade-up">
+                <h3>Checking Account</h3>
+                <p>No monthly fees, no minimum balance, and free ATM withdrawals worldwide.</p>
+                <br>
+                <button class="cta">Learn More</button>
+            </div>
+            <div class="product-card" data-aos="fade-up">
+                <h3>Savings Account</h3>
+                <p>Competitive interest rates and automated savings tools.</p>
+                <br>
+                <button class="cta">Learn More</button>
+            </div>
+            <div class="product-card" data-aos="fade-up">
+                <h3>Credit Card</h3>
+                <p>Cashback rewards, travel benefits, and no foreign transaction fees.</p>
+                <br>
+                <button class="cta">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content" data-aos="fade-up">
+            <h2 class="section-title">About ProXimaPay</h2>
+            <p>ProXimaPay is a modern financial institution committed to providing innovative digital banking solutions. Founded in 2020, we've been transforming the banking experience for thousands of customers worldwide.</p>
+            <br>
+            <button class="cta">Our Story</button>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="features-grid">
+            <div class="testimonial-card" data-aos="fade-up">
+                <p>"The best digital banking experience I've ever had. Simple, fast, and secure!"</p>
+                <br>
+                <strong>- Sarah Johnson</strong>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up">
+                <p>"Their mobile app is incredible. I can manage all my finances with just a few taps."</p>
+                <br>
+                <strong>- Mike Thompson</strong>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up">
+                <p>"Customer support is exceptional. They're always there when you need them."</p>
+                <br>
+                <strong>- Emma Davis</strong>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-form" data-aos="fade-up">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="nav-content">
+            <p>&copy; 2024 DigiBank. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Navigation scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const menuButton = document.querySelector('.menu-button');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
