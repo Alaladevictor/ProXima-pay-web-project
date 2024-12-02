@@ -23,7 +23,6 @@ Project - a website for a digital bank! Built this to learn more about Frontend 
 git clone https://github.com/yourusername/ProXimaPay.git
 ```
 
-2. Open `index.html` in your browser
 
 
 ## Things I learned
@@ -47,11 +46,7 @@ git clone https://github.com/yourusername/ProXimaPay.git
 - CSS can be really frustrating sometimes 😅
 - Scroll animations were breaking on mobile
 
-## Credits
-Big thanks to:
-- Youtube videos with the JavaScript parts
-- AOS library for the cool animations
-- Stack Overflow for saving me countless times
+
 
 ## Want to help?
 Feel free to make a pull request!
