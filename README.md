@@ -23,15 +23,13 @@ Project - a website for a digital bank! Built this to learn more about Frontend 
 git clone https://github.com/yourusername/ProXimaPay.git
 ```
 
-
-
 ## Things I learned
 - How to make websites responsive
 - How to use CSS variables
 - JavaScript DOM manipulation
 - How to work with external libraries
 - Git basics
-- How important commenting code is!
+- How important commenting code is
 
 ## Things I want to add
 - [ ] Make the forms actually work
@@ -42,17 +40,13 @@ git clone https://github.com/yourusername/ProXimaPay.git
 
 ## Problems I faced
 - The mobile menu was really tricky to get right
-- Had some issues with images not loading
 - CSS can be really frustrating sometimes 😅
 - Scroll animations were breaking on mobile
-
-
 
 ## Want to help?
 Feel free to make a pull request!
 
 ---
-
 Made with ❤️ by [Victor]
 
 [My LinkedIn](https://www.linkedin.com/in/victor-alalade-b81839191/) | [My Twitter](https://x.com/O__luwasegun)
