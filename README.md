@@ -15,28 +15,16 @@ Project - a website for a digital bank! Built this to learn more about Frontend 
 - Different pages like About and Contact
 - Forms (still need to make them work with backend)
 - Cool hover effects on the cards
-- Everything works on mobile too!
+- Everything works on mobile too
 
 ## How to run it
 1. Clone the project
 ```bash
-git clone https://github.com/yourusername/digibank.git
+git clone https://github.com/yourusername/ProXimaPay.git
 ```
 
 2. Open `index.html` in your browser
 
-That's it! No need to install anything else 😊
-
-## Project folders
-```
-ProXimaPay/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── main.js
-└── images/
-```
 
 ## Things I learned
 - How to make websites responsive
